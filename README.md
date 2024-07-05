@@ -1,12 +1,58 @@
-- 👋 Hi, I’m @Jana-jk-jk
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-Jana-jk-jk/Jana-jk-jk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+            
+                background-image: url("loop.vid.gif");
+                background-size: cover ;
+                background-position: 50%;
+                height: 100vh;
+                padding:0;
+                margin:0;
+                
+                font-family: Arial;
+                font-size: 17px;
+            }
+        
+      
+        
+        .content {
+          position: fixed;
+          bottom: 30%;
+          
+          color: #f1f1f1;
+          width: 100%;
+          padding: 20px;
+        }
+        
+        #myBtn {
+          width: 200px;
+          font-size: 18px;
+          padding: 10px;
+          border: none;
+          background: #000;
+          color: #ff0707;
+          cursor: pointer;
+        }
+        
+       
+        </style>
+        </head>
+        <body>
+            <form action="main.html"
+ 		 <div class="content">
+ 			 <center><h1 style="color: red;"><marquee behavior="scroll" direction="right" scrollamount="14">NO PAIN🏋🏻 NO GAIN💪🏻 </marquee></h1>
+ 			   <p style="font-style: oblique;">Exercise not only changes your body, it changes your mind, your attitude and your mood.</p>
+			    <button id="myBtn" onclick="myFunction()">LET'GOO!!!</button></center>
+		  </div>
+		</form>
+    </body>
+</html>
